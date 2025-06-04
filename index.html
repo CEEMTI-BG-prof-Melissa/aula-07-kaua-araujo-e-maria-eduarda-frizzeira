@@ -4,9 +4,19 @@
   </head>
   <body>
     <form action="/recebe.html" method="post">
-      Nome Completo <input type = "text" id = "nome" maxlenght = "50">
-      Senha <input type = "password" id = "senha">
-      Idade <input type = "number" id = "idade" min = "1" max = "100">
-      Email <input type = 
+      Nome Completo: <input type = "text" id = "nome" maxlenght = "50">
+      Senha: <input type = "password" id = "senha">
+      Idade: <input type = "number" id = "idade" min = "1" max = "100">
+      Email: <input type = "email" id = "email">
+      Data de Nascimento: <input type = "date" id = "datadenascimento" min = "2000-01-01" max = "2024-12-31">
+      Mensagem de Observação: <textarea rows = "4" cols = "40"> </textarea>
+      Escolha: <select>
+        <option> Programação </option>
+        <option> Design </option>
+        <option> Redes </option>
+        <option> Suporte </option>
+      </select>
+      <button> Enviar </button>
+    </form>
   </body>
 </html>
