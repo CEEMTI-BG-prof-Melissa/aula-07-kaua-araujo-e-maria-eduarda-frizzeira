@@ -1,29 +1,29 @@
-<html>
+ <html>
   <head>
     <title> Aula 07 </title>
   </head>
   <body>
     <form action = "recebe.html" method = "post">
       <label for = "nome"> Nome Completo: </label>
-      <input type = "text" id = "nome" maxlenght = "50">
+      <input type = "text" id = "nome" name = "nome" maxlenght = "50" >
       <br><br>
       <label for = "senha"> Senha: </label> 
-      <input type = "password" id = "senha">
+      <input type = "password" id = "senha" name = "senha">
       <br><br>
       <label for = "idade"> Idade: </label> 
-      <input type = "number" id = "idade" min = "1" max = "100">
+      <input type = "number" id = "idade" name = "idade" min = "1" max = "100" >
       <br><br>
       <label for = "email"> Email: </label> 
-      <input type = "email" id = "email">
+      <input type = "email" id = "email" name = "email">
       br><br>
       <label for = "datadenascimento" = Data de Nascimento: </label> 
-      <input type = "date" id = "datadenascimento" min = "2000-01-01" max = "2024-12-31">
+      <input type = "date" id = "datadenascimento" name = "datadenascimento" min = "2000-01-01" max = "2024-12-31">
       <br><br>
       <label for = "mso"> Mensagem de Observação: </label>
-      <textarea id = "mso" rows = "4" cols = "40"> </textarea>
+      <textarea id = "mso" name = "mso" rows = "4" cols = "40"> </textarea>
       <br><br>
       <label for = "escolha"> Escolha: </label>
-      <select id = "escolha">
+      <select id = "escolha" name = "escolha">
         <option value = "programacao"> Programação </option>
         <option value = "design"> Design </option>
         <option value = "redes" > Redes </option>
